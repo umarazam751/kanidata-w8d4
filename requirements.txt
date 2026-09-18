@@ -1,0 +1,6 @@
+# Runtime
+# (intentionally empty for the demo - the pipeline is stdlib-only)
+
+# Dev / test
+pytest>=8
+ruff>=0.5
