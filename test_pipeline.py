@@ -3,7 +3,7 @@ from pipeline import clean_email, is_valid_customer
 
 
 def test_clean_email_strips_and_lowers():
-    assert clean_email("  Foo@Bar.COM ") == "WRONG"
+    assert clean_email("  Foo@Bar.COM ") == "foo@bar.com"
 
 
 def test_clean_email_empty():
